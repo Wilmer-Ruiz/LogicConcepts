@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{143E571A-AA54-4DA1-B798-44021FBBCCAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberOddOrNot", "IsNumberOddOrNot\IsNumberOddOrNot.csproj", "{AFF26B48-BB5F-4746-B7A6-727D06110BD7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF26B48-BB5F-4746-B7A6-727D06110BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF26B48-BB5F-4746-B7A6-727D06110BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF26B48-BB5F-4746-B7A6-727D06110BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF26B48-BB5F-4746-B7A6-727D06110BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFF26B48-BB5F-4746-B7A6-727D06110BD7} = {143E571A-AA54-4DA1-B798-44021FBBCCAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D046E085-BF55-498E-A968-A3ADB114E0DE}
